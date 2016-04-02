@@ -1,8 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import CommentList from './CommentList'
-import ToggleOpen from './ToggleOpen'
 
-export default ToggleOpen(({
+export default ({
     title = "",
     text = "",
     comments = [],
@@ -16,4 +15,4 @@ export default ToggleOpen(({
             <CommentList comments={comments} />
         </div>
     </div>
-))
+)
